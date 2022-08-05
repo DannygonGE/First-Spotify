@@ -1,0 +1,146 @@
+@import url(/css/font.css);
+
+
+:root {
+    --black: #000000;
+    --white: #FFFFFF;
+    --blue: rgb(29, 117, 222);
+    --light-green: #1ed760;
+    --margin-left: 380px;
+    --margin-right: 380px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.intro {
+    background-color: var(--black);
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    margin-left: 380px;
+    margin-right: 380px;
+}
+
+.logo {
+    color: var(--white);
+}
+
+.intro .navbar .logo p {
+    font-family: "Spotify";
+    margin-top: 28px;
+    font-size: 14px;
+}
+
+.logo img {
+    margin-top: 20px;
+}
+
+.intro .navbar .logo {
+    display: flex;
+}
+
+.intro .navbar .logo img {
+    width: 140px;
+    height: 40px;
+}
+
+
+
+.intro .nav-bar .nav li {
+    display: flex;
+    color: var(--white);
+    font-family: "Spotify";
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.intro .nav-bar .nav li a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.intro .nav-bar .nav li a:hover {
+    color: var(--light-green);
+}
+
+.intro .nav-bar .nav li ul{
+    margin-right:30px;
+    
+}
+
+.intro .nav-bar .nav li .line {
+    border: 0.5px solid white;
+}
+
+.content {
+    background-color: var(--blue);
+    height: 360px;
+}
+
+.content .offer {
+    margin-left: var(--margin-left);
+    font-family: "spotify circular";
+    color: var(--white);
+}
+
+.content .offer h1 {
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 90px;
+}
+
+.content .offer p {
+    padding-left: 10px;
+    padding-top: 20px;
+} 
+
+.button {
+    margin-top: 30px;
+    background-color: var(--black);
+    color: var(--white);
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    font-family: "spotify circular";
+    font-size: 15px;
+}
+
+.beneficios {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-beneficios {
+    width: 150px;
+}
+
+.beneficios {
+    display: flex;
+    flex-direction: column;
+    display: block;
+}
+
+.beneficios h1 {
+    font-family: "spotify circular";
+    margin-left: 930px;
+    margin-right: 800px;
+    font-size: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.beneficios li {
+    list-style: none;
+    display: flex;
+    margin-left: 270px;
+    gap: 230px;
+    font-family: "spotify circular";
+    text-align: center;
+    line-height: 20px;
+}

@@ -1,0 +1,26 @@
+
+
+@font-face {
+    font-family:"spotify circular";
+    src: url(/font/Circular/CircularStd-Black.otf);
+}
+
+@font-face {
+    font-family:"Helvetica";
+    src: url(/font/Helvetica\ font\ pack-dfonts.org/Helvetica);
+}
+
+@font-face {
+    font-family: "Arial";
+    src: url(/font/arial-cufonfonts-webfont/ARIAL.woff);
+}
+
+@font-face {
+    font-family: "Spotify";
+    src: url(/font/lineto-circular-black.ttf);
+}
+
+@font-face {
+    font-family: "Spotify-2";
+    src: url(/font/lineto-circular-pro-book.ttf);
+}
